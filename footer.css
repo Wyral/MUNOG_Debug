@@ -1,0 +1,40 @@
+.outer_line_footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.inner_line_footer {
+  display: inline;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.inner_line_footer i:hover {
+  color: #7e5c14;
+}
+
+.links_footer {
+  display: flex;
+  justify-content: center;
+}
+
+.links_footer a {
+  margin: 0 10px;
+}
+
+.links_footer a:hover {
+  color: #7e5c14;
+}
+
+.container_footer {
+  padding-top: 40px;
+}
+footer {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #06090e46;
+  background-image: url("Background Pictureheader-01.webp");
+  background-size: cover;
+}
+<script src="https://kit.fontawesome.com/0c5223a6ee.js" crossorigin="anonymous"></script>
